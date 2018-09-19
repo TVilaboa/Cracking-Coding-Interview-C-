@@ -3,8 +3,8 @@ mono: none
 dotnet: 2.1.300
 solution: CrackingTheCodingInterview.sln
 install:
-  - nuget restore CrackingTheCodingInterview.sln
-  - nuget install xunit.runners -Version 2.0.0 -OutputDirectory testrunner
+  - dotnet restore CrackingTheCodingInterview.sln
+  - dotnet install xunit.runners -Version 2.0.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release CrackingTheCodingInterview.sln
   - mono ./testrunner/xunit.runners.2.0.0/tools/xunit.console.clr4.exe ./Tests/DataStructuresTests/bin/Debug/netcoreapp2.1/DataStructuresTests.dll
