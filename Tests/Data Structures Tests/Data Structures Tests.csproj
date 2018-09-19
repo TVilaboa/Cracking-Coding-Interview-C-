@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>Craking_The_Coding_Interview</RootNamespace>
+    <RootNamespace>Data_Structures_Tests</RootNamespace>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>

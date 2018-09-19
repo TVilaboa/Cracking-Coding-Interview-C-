@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Craking_The_Coding_Interview
+namespace Data_Structures_Tests
 {
     public class UnitTest1
     {
