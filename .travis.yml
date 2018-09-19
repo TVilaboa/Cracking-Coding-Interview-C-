@@ -1,8 +1,8 @@
 language: csharp
-solution: "Cracking The Coding Interview.sln"
+solution: CrackingTheCodingInterview.sln
 install:
-  - nuget restore "Cracking The Coding Interview.sln"
+  - nuget restore CrackingTheCodingInterview.sln
   - nuget install xunit.runners -Version 2.0.0 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release "Cracking The Coding Interview.sln"
-  - mono ./testrunner/xunit.runners.2.0.0/tools/xunit.console.clr4.exe ./Tests/"Data Structures Tests"/bin/Debug/netcoreapp2.1/"Data Structures Tests.dll"
+  - xbuild /p:Configuration=Release CrackingTheCodingInterview.sln
+  - mono ./testrunner/xunit.runners.2.0.0/tools/xunit.console.clr4.exe ./Tests/DataStructuresTests/bin/Debug/netcoreapp2.1/DataStructuresTests.dll
