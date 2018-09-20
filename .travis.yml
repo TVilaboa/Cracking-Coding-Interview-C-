@@ -4,7 +4,6 @@ dotnet: 2.1.300
 solution: CrackingTheCodingInterview.sln
 install:
   - dotnet restore CrackingTheCodingInterview.sln
-  - dotnet add package xunit.runners project ./Tests/DataStructuresTests/DataStructuresTests.csproj  --version 2.0.0 --package-directory testrunner
 script:
   - xbuild /p:Configuration=Release CrackingTheCodingInterview.sln
   - mono ./testrunner/xunit.runners.2.0.0/tools/xunit.console.clr4.exe ./Tests/DataStructuresTests/bin/Debug/netcoreapp2.1/DataStructuresTests.dll
