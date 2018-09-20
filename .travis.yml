@@ -5,5 +5,5 @@ solution: CrackingTheCodingInterview.sln
 install:
   - dotnet restore CrackingTheCodingInterview.sln
 script:
-  - xbuild /p:Configuration=Release CrackingTheCodingInterview.sln
-  - mono ./testrunner/xunit.runners.2.0.0/tools/xunit.console.clr4.exe ./Tests/DataStructuresTests/bin/Debug/netcoreapp2.1/DataStructuresTests.dll
+  - dotnet build
+  - dotnet test Tests/DataStructuresTests/DataStructuresTests.csproj
