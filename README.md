@@ -9,7 +9,7 @@
 
 ## HackerRank
 
-[![5 solutions and counting](https://img.shields.io/badge/Challenges-5-blue.svg)](https://www.hackerrank.com/tvilaboa?hr_r=1)
+[![Rank](https://img.shields.io/badge/rank-733773-green.svg)](https://www.hackerrank.com/tvilaboa?hr_r=1)
 
 ### License ###
 
