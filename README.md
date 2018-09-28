@@ -9,7 +9,8 @@
 
 ## HackerRank
 
-[![Rank](https://img.shields.io/badge/rank-733773-green.svg)](https://www.hackerrank.com/tvilaboa?hr_r=1)
+<!--[![Rank](https://img.shields.io/badge/rank-733773-green.svg)](https://www.hackerrank.com/tvilaboa?hr_r=1)-->
+[![HackerRank](https://hrcdn.net/hackerrank/assets/brand/h_mark_sm-9c05999c62674028552f4e813728e591.svg)](https://www.hackerrank.com/tvilaboa?hr_r=1)
 
 ### License ###
 
