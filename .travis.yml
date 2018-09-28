@@ -7,3 +7,4 @@ install:
 script:
   - dotnet build
   - dotnet test Tests/DataStructuresTests/DataStructuresTests.csproj
+  - dotnet test Tests/HackerRankTests/HackerRankTests.csproj
