@@ -62,5 +62,90 @@ namespace HackerRankTests
 
         }
 
+        //Sample Input
+
+        //6
+        //-4 3 -9 0 4 1         
+        //Sample Output
+
+        //0.500000
+        //0.333333
+        //0.166667
+        [Fact]
+        public void PlusMinus()
+        {
+            
+            var input = new int[6] { -4, 3, -9, 0, 4, 1 };
+
+            Assert.Equal(new float[]{0.5f,(float)1/3, (float)1 /6}, WarmUp.PlusMinus(input));
+
+        }
+
+        //        Sample Input
+
+        //        6 
+        //        Sample Output
+
+        //        #
+        //       ##
+        //      ###
+        //     ####
+        //    #####
+        //   ######
+        [Fact]
+        public void Staircase()
+        {
+            var line1 = "     #";
+            var line2 = "    ##";
+            var line3 = "   ###";
+            var line4 = "  ####";
+            var line5 = " #####";
+            var line6 = "######";
+
+            Assert.Equal(new string[]{line1,line2,line3,line4,line5,line6}, WarmUp.Staircase(6));
+
+        }
+
+        //Sample Input
+
+        //1 2 3 4 5
+        //Sample Output
+
+        //10 14
+        [Fact]
+        public void MiniMaxSum()
+        {
+           Assert.Equal(new long[] {10,14}, WarmUp.MiniMaxSum(new long[] { 1,2,3,4,5 }));
+
+        }
+
+        //Sample Input 0
+
+        //4
+        //3 2 1 3
+        //Sample Output 0
+
+        //2
+
+        [Fact]
+        public void BirthdayCackeCandles()
+        {
+            Assert.Equal(2, WarmUp.BirthdayCakeCandles(new int[] { 3, 2, 1, 3 }));
+
+        }
+
+        //Sample Input 0
+
+        //07:05:45PM
+        //    Sample Output 0
+
+        //19:05:45
+        [Fact]
+        public void TimeConversion()
+        {
+            Assert.Equal("19:05:45", WarmUp.TimeConversion("07:05:45PM"));
+
+        }
+
     }
 }
